@@ -1,0 +1,83 @@
+body
+{
+   margin: 0;
+   padding: 0;
+}
+nav{
+    background-image: linear-gradient(to bottom right, #faadd6, #a7ffff);
+}
+header
+{
+    background-image: linear-gradient(to bottom right, #faadd6, #a7ffff);
+}
+.name
+{
+    color: black;
+    font-size: 20px;
+    padding: 2px;
+    margin-left: 50px;
+    margin-right: 500px;
+    text-align: left;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+}
+.navigation li{
+    margin: 0;
+}
+.navigation a{
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.navigation a:hover
+{
+    color: #ff55b0;
+}
+.search_bar
+{
+    padding: 10px 60px 2px;
+}
+.search_bar input
+{
+    padding: 5px 12px;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom right, #faadd6, #a7ffff);
+    border-color: rgb(0, 0, 0);
+     
+    border: 0;
+    font-size: 16px;
+}
+.search_bar button
+{
+    padding: 5px 12px;
+    background-image: linear-gradient(to right, #ff55b0, #00ffff);
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    
+    border: 0;
+    font-size: 16px;
+}
+.text
+{
+    font-size: 20px;
+    text-align: center;
+}
+video.play
+{
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+ 
